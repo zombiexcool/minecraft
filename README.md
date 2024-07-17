@@ -1,4 +1,4 @@
-# minecraft
+# !!! Quelques problèmes sont encore a régler !!!
 A Ubuntu based minecraft server with a discord bot
 
 # installation 
