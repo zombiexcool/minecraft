@@ -12,7 +12,7 @@ java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.jar nogui # 1024M = 1Go. Cha
 nano eula.txt # mettre true
 java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.jar nogui 
 ````
-##mettre en place les script 
+## mettre en place les script 
 placer tout dans votre /home, sauf le daemon (script.service)
 ````
 sudo apt install python3-is-python
