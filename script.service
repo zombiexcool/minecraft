@@ -5,6 +5,6 @@ Description = Execute script.sh
 [Service]
 ExecStart=/home/zombie/script.sh
 ExecStartPost=/bin/touch /home/zombie/.script_executed_once
-ExecStop = /home/zombie/stop.sh
+ExecStopPost = /home/zombie/stop.sh
 [Install]
 WantedBy=multi-user.target
