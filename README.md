@@ -19,7 +19,9 @@ sudo apt install python3-is-python
 sudo apt install python3-discord
 git clone https://github.com/zombiexcool/minecraft
 sudo chmod +x start.sh
-sudo chmod +x stop.sh 
+sudo chmod +x stop.sh
+placer script.service dans /etc/systemd/system/
+sudo systemctl enable script.service
 ````
 
 ## Ouvrir les ports ( port forwarding ) 
