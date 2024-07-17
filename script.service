@@ -3,8 +3,8 @@
 Description = Execute script.sh
 
 [Service]
-ExecStart=/home/zombie/script.sh
-ExecStartPost=/bin/touch /home/zombie/.script_executed_once
-ExecStopPost = /home/zombie/stop.sh
+ExecStart=/home/zombie/start.sh
+ExecStop = /home/zombie/stop.sh
+RemainAfterExit=yes
 [Install]
 WantedBy=multi-user.target
