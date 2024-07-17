@@ -1,2 +1,2 @@
 # minecraft
-A Ubuntu based minecraft server with a bot 
+A Ubuntu based minecraft server with a discord bot
